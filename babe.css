@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-image: url('./file:///C:/Users/TI%203/Desktop/hp.jpg');/* Fundo estilo Harry Potter */
+   background-image: url('https://Daiury.github.io/babe/hp.jpg');/* Fundo estilo Harry Potter */
 
     background-size: cover;
     background-repeat: no-repeat;
