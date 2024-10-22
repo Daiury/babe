@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-image: url('https://i.imgur.com/6Y8hT4H.jpg'); /* Fundo estilo Harry Potter */
+    background-image: url('file:///C:/Users/TI%203/Desktop/hp.jpg'); /* Fundo estilo Harry Potter */
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
