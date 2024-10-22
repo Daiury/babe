@@ -17,10 +17,12 @@ body {
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    max-width: 90%; /* Limitar a largura no mobile */
 }
 
 h1 {
     color: #e43f25; /* Cores do SPFC */
+    font-size: 2em; /* Tamanho da fonte maior */
 }
 
 @keyframes magical {
@@ -48,4 +50,20 @@ button {
 
 button:hover {
     background-color: #c92d1f; /* Tom mais escuro para hover */
+}
+
+/* Media Queries para Responsividade */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5em; /* Reduzir tamanho do título */
+    }
+    
+    #cantada {
+        font-size: 1.2em; /* Reduzir tamanho do texto da cantada */
+    }
+
+    button {
+        padding: 8px 16px; /* Ajustar o padding do botão */
+        font-size: 0.9em; /* Reduzir tamanho da fonte do botão */
+    }
 }
