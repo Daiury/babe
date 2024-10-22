@@ -1,29 +1,43 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cantada em CSS</title>
-    <link rel="stylesheet" href="cantada.css"> <!-- Link para o seu CSS -->
-</head>
-<body>
-    <h1>Cantada Romântica em CSS</h1>
-    <pre>
-    /* Para a mais linda no meu coração */
-    .nome-da-namorada {
-        color: pink; /* Sua beleza brilha como o rosa */
-        font-size: 2em; /* Você é grande demais para ser ignorada */
-        text-shadow: 2px 2px 4px rgba(255, 20, 147, 0.5); /* Seu sorriso ilumina tudo */
-    }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
 
-    .coração {
-        animation: beat 1s infinite; /* Meu coração bate por você */
-    }
+.container {
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
 
-    @keyframes beat {
-        0%, 100% { transform: scale(1); }
-        50% { transform: scale(1.1); }
-    }
-    </pre>
-</body>
-</html>
+h1 {
+    color: #ff6f61;
+}
+
+#cantada {
+    font-size: 1.5em;
+    margin: 20px 0;
+    color: #333;
+}
+
+button {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e65c54;
+}
+
