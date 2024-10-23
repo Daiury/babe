@@ -22,16 +22,16 @@ body::before, body::after {
 }
 
 body::before {
-    background-image: url('https://github.com/Daiury/babe/main/hp.jfif');
+    background-image: url('https://github.com/Daiury/babe/raw/main/hp.jfif');
     left: 0; /* Posiciona à esquerda */
     background-position: center;
 }
 
 body::after {
-    background-image: url('https://github.com/Daiury/babe/main/hp.jfif');    right: 0; /* Posiciona à direita */
+    background-image: url('https://github.com/Daiury/babe/raw/main/hp.jfif');    
+    right: 0; /* Posiciona à direita */
     background-position: center;
 }
-
 
 .container {
     text-align: center;
