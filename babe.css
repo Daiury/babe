@@ -22,13 +22,13 @@ body::before, body::after {
 }
 
 body::before {
-    background-image: url('./img/hp.jfif'); /* Primeira imagem */
+    background-image: url('https://raw.githubusercontent.com/Daiury/babe/main/img/Daiury.github.jfif'); /* Substitua pelo caminho da nova imagem */
     left: 0; /* Posiciona à esquerda */
     background-position: center;
 }
 
 body::after {
-    background-image: url('./img/hp.jfif'); /* Segunda imagem (pode ser outra) */
+    background-image: url('./img/hp.jfif');background-image: url('https://raw.githubusercontent.com/Daiury/babe/main/img/Daiury.github.jfif'); /* Segunda imagem (pode ser outra) */
     right: 0; /* Posiciona à direita */
     background-position: center;
 }
