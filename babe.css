@@ -1,17 +1,38 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-image: url('https://Daiury.github.io/babe/hp.jpg');
-    background-image: url('https://Daiury.github.io/babe/hp.jfif');
-    
-    background-size: cover;
-    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
+    position: relative; /* Necessário para os pseudo-elementos funcionarem */
     color: white; /* Texto em branco para contraste */
 }
+
+body::before, body::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 300px; /* Ajuste a largura aqui */
+    background-size: contain; /* Ajusta para que a imagem se encaixe */
+    background-repeat: no-repeat;
+    z-index: -1; /* Fica atrás do conteúdo do body */
+}
+
+body::before {
+    background-image: url('./img/hp.jfif'); /* Primeira imagem */
+    left: 0; /* Posiciona à esquerda */
+    background-position: center;
+}
+
+body::after {
+    background-image: url('./img/hp.jfif'); /* Segunda imagem (pode ser outra) */
+    right: 0; /* Posiciona à direita */
+    background-position: center;
+}
+
 
 .container {
     text-align: center;
